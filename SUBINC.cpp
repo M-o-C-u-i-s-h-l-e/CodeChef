@@ -22,7 +22,7 @@ int main(void) {
 			cin >> v[i];
 		long long ans = 0;
 		for (int i = 0; i < n; i++) {
-			long temp = v[i], Count = 0, pos = i;
+			long temp = v[i], Count = 0;
 			while (i < n && v[i] >= temp)
 				temp = v[i++], Count++;
 			i--;
