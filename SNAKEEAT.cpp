@@ -7,7 +7,6 @@ int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
-	cout.precision(6);
 
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
