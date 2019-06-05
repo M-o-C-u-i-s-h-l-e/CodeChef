@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define endl '\n'
 long long mod = 1e9+7;
 
 int main(void) {
