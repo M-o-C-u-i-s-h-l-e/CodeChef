@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define endl "\n"
 #define F first
 #define S second
 
