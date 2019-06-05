@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define endl "\n"
+#define endl '\n'
 
 long long mod = 1e9+7;
 long long arr[1807][307][10];
