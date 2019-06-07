@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define endl '\n'
 
 template<typename T>
 void scanInt(T &x) {
