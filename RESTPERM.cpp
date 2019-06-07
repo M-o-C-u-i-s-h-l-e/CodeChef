@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define endl '\n'
 
 bool q1(int x, int y, int d) {
     cout << 1 << ' ' << x << ' ' << y << ' ' << d << endl;
