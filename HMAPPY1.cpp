@@ -81,6 +81,20 @@ node query(vector<node> &segTree, int low, int high, int qLow, int qHigh, int po
     return merge(n1, n2);
 }
 
+/* 
+// Another Method to do Query
+node query(vector<node> &segTree, int low, int high, int qLow, int qHigh, int pos) {
+    if (qHigh < low || qLow > high)
+        return null;
+    if (qLow <= low && qHigh >= high)
+        return segTree[pos];
+    int mid = (low + high) / 2;
+    node n1 = query(segTree, low, mid, qLow, qHigh, 2 * pos + 1);
+    node n2 = query(segTree, mid + 1, high, qLow, qHigh, 2 * pos + 2);
+    return merge(n1, n2);
+} 
+*/
+
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
